@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body bgcolor="#CEABCF">
+   <h1>¿Quieres recibir notificaciones? </h1>
+   
+
+   <form action="mailto:esmeralda.gonzaga.barrera@estudiante.uacm.edu.mx"
+   method="post" enctype="text/plain">  
+   <p>Nombre: <input type="text" name="nombre" size="40"></p>
+   <p>Correo: <input type="text" name="nombre" size="40"></p>
+
+
+ 
+   <p>Sexo:
+    <input type="radio" name="hm" value="h"> Hombre
+    <input type="radio" name="hm" value="m"> Mujer
+  </p>
+
+ <p>  ¿Que tipo de poemas son de tu preferencia? <br> 
+    <input type="checkbox" name="casilla">Amor<br>
+    <input type="checkbox" name="casilla">Duelo<br>
+    <input type="checkbox" name="casilla">Muerte<br>
+    <input type="checkbox" name="casilla">Tristeza<br>
+    <input type="checkbox" name="casilla">Refleccion<br>
+    <input type="checkbox" name="casilla">Inspiracion<br>
+
+
+
+ </p>
+<h3>¿Que otro poeta te gustaria que publicaramos? </h3>
+ <br> 
+ <select name="menu">
+  <option>Octavio Paz</option>
+  <option>Jose Emilio Pacheco</option>
+  <option>Jaime Sabines</option>
+  <option>Amado Nervo</option>
+  <option>Federico García Lorca</option>
+  <option>Gabriela Mistral</option>
+</select>
+
+
+
+   <p>¿Te gusta nuestra pagina? Escribenos tus sugerencias :<textarea rows="8" cols="30">    </textarea></p>
+
+   
+<h3>¿Quieres ver nuestros "en vivo"? coloca la fecha y hora para mandarte la informacion  </h3>
+   Fecha y hora: <input type="datetime-local" name="fechaHora">
+
+   <br>
+   <input type="reset"><br>
+   <input type="button" value=" Cerrar ventana " onClick="window.close();"><br>
+   <input type="reset" value="Limpiar datos"
+       name="Limpiar">
+   <button>Enviar </button>     
+   
+   
+
+    </form>
+
+</body>
+</html>
